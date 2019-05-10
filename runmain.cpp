@@ -30,5 +30,5 @@ int main()
         }
     }
  
-    cout << "Most constant char is " << (char)most << "\n";
+    cout << "Most constant char is " << (char)most << " " << b[(char)most - 'A']<< "\n";
 }
